@@ -1,0 +1,10 @@
+body, html {
+    background-size: cover;
+    background-color: #fff;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+.top{
+  min-height: 500px;
+      background: linear-gradient(0deg, #003F9D 4%,  #00112B 100%);
+}
