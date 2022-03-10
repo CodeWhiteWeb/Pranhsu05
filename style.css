@@ -52,3 +52,6 @@
   font-weight: 700;
   padding-top: 120px;
 }
+ ::-webkit-scrollbar {
+    display: none;
+}
