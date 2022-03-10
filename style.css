@@ -11,9 +11,12 @@
   color: #fff;
   background-repeat: no-repeat;
 }
+.top{
+  height: 100vh;
+}
 .top-img-cont{
   width: 50vw;
-  height: 500px;
+  height: 100vh;
   float: right;
 }
 .top-img-cont img{
@@ -24,7 +27,7 @@
   width: 50vw;
   float: left;
   text-align: center;
-  height: 500px;
+  max-height: 100vh;
   font-size: 40px;
   font-weight: 700;
   padding-top: 40vh;
@@ -50,6 +53,17 @@ a {
     color: #000;
     font-weight: bolder;
     font-size: 20px;
+}
+.abt{
+  background: #fff;
+  color: #000;
+  height: 500px;
+  width: 100%;
+  text-align: center;
+}
+.wax img{
+  margin-top: -60px;
+  z-index: 2;
 }
 @media screen and (max-width: 800px) {
 .top-img-cont{
