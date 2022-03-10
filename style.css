@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
  body {
   margin: 0;
   padding: 0;
@@ -49,6 +49,10 @@
     height: 50px;
     font-weight: 700;
     margin-top: 30px;
+}
+iframe{
+  width: 480px;
+  height: 270px;
 }
 a {
     text-decoration: none;
@@ -104,6 +108,12 @@ li .label {
   font-weight: 700;
   padding-top: 40vh;
 }
+}
+@media screen and (max-width: 500px){
+  iframe{
+    width: 96vw;
+    height: 54vw;
+  }
 }
  ::-webkit-scrollbar {
     display: none;
