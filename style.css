@@ -75,10 +75,10 @@ a {
 .top-text-cont{
   width: 100vw;
   text-align: center;
-  height: 300px;
+  max-height: 100vh;
   font-size: 40px;
   font-weight: 700;
-  padding-top: 120px;
+  padding-top: 40vh;
 }
 }
  ::-webkit-scrollbar {
