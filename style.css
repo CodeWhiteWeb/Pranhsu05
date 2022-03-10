@@ -38,16 +38,18 @@
     -webkit-text-fill-color: transparent;
 }
 .button {
-border-radius: 50px;
-background: #fff;
-color:#000;
-align: center;
+    border-radius: 50px;
+    background: #fff;
+    color: #000;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 30px;
 }
-a{
-text-decoration: none;
-color: #000;
-font-weight: bold;
- font-size: 25px;
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+    font-size: 25px;
 }
 @media screen and (max-width: 800px) {
 .top-img-cont{
