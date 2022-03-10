@@ -1,5 +1,5 @@
- @import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
-  body {
+@import url('https://fonts.googleapis.com/css2?family=Sora&display=swap');
+ body {
   margin: 0;
   padding: 0;
   width: 100vw;
@@ -39,6 +39,8 @@
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: bolder;
 }
 .button {
     border-radius: 50px;
@@ -57,7 +59,7 @@ a {
 .abt{
   background: #fff;
   color: #000;
-  height: 500px;
+  min-height: 500px;
   width: 100%;
   text-align: center;
 }
@@ -65,6 +67,28 @@ a {
   margin-top: -60px;
   z-index: 2;
 }
+#countdown {
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px 0 20px 0;
+  color: #000;
+  font-weight: bolder;
+}
+li {
+    margin: 0 -3px 0 0;
+    padding: 0;
+    display: inline-block;
+    width: 25%;
+    font-size: 72px;
+    font-size: 6vw;
+    text-align: center;
+}  
+li .label {
+      color: #adafb2;
+      font-size: 18px;
+      font-size: 1.5vw;
+      text-transform: uppercase;
+    }
 @media screen and (max-width: 800px) {
 .top-img-cont{
   display:none;
